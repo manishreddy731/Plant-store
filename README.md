@@ -2,14 +2,9 @@
 
 Welcome to The Green Shelf, a front-end e-commerce application for a fictional houseplant store. This project allows users to browse products, add them to a shopping cart, and manage their cart's contents. It was built from scratch as a peer-graded assignment, demonstrating core concepts of modern web development.
 
-**Live Demo Link:** [**Your Live Site URL Will Go Here**]
+**Live Demo Link:** [** https://plant-store.up.railway.app/ **]
 
----
 
-### ## 📸 Project Screenshot
-
-![The Green Shelf Screenshot](placeholder.png)
-*(**Note:** To add a real screenshot, take a picture of your running application, add the image file to your project folder, and replace `placeholder.png` with the file's path.)*
 
 ---
 

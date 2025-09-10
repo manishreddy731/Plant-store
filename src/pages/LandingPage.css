@@ -1,0 +1,37 @@
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* Takes up most of the screen height */
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+}
+
+.landing-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for readability */
+  padding: 2rem 3rem;
+  border-radius: 10px;
+}
+
+.get-started-btn {
+  background-color: #4CAF50; /* A nice green */
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+}

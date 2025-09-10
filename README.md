@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# The Green Shelf 🌿 - E-commerce Plant Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to The Green Shelf, a front-end e-commerce application for a fictional houseplant store. This project allows users to browse products, add them to a shopping cart, and manage their cart's contents. It was built from scratch as a peer-graded assignment, demonstrating core concepts of modern web development.
 
-## Available Scripts
+**Live Demo Link:** [**Your Live Site URL Will Go Here**]
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### ## 📸 Project Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![The Green Shelf Screenshot](placeholder.png)
+*(**Note:** To add a real screenshot, take a picture of your running application, add the image file to your project folder, and replace `placeholder.png` with the file's path.)*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### ## ✨ Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Product Listing:** View a list of available houseplants, organized by category.
+* **Redux-Powered Shopping Cart:** State-of-the-art state management for a seamless user experience.
+* **Dynamic Cart Management:**
+    * Add items to the cart directly from the product page.
+    * Increase or decrease the quantity of each item in the cart.
+    * Remove items completely from the cart.
+* **Real-time Updates:** The cart icon in the header and the cart summary update instantly with every change.
+* **Responsive Layout:** A clean and functional design that works on various screen sizes.
+* **React Router:** Smooth, single-page application navigation between the landing, product, and cart pages.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ## 🛠️ Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **[React](https://reactjs.org/):** A JavaScript library for building user interfaces.
+* **[Redux Toolkit](https://redux-toolkit.js.org/):** The official, recommended way to write Redux logic.
+* **[React Redux](https://react-redux.js.org/):** Official React bindings for Redux.
+* **[React Router](https://reactrouter.com/):** For declarative routing in a React application.
+* **JavaScript (ES6+):** Modern JavaScript for all application logic.
+* **CSS3:** For custom styling and layout.
+* **Git & GitHub:** For version control and source code management.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### ## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy up and running, follow these simple steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Node.js (v14 or later)
+* npm
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Installation & Setup
 
-## Learn More
+1.  **Clone the repository:**
+    ```sh
+    git clone [https://github.com/manishreddy731/Plant-store.git](https://github.com/manishreddy731/Plant-store.git)
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2.  **Navigate to the project directory:**
+    ```sh
+    cd Plant-store
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3.  **Install NPM packages:**
+    ```sh
+    npm install
+    ```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4.  **Start the development server:**
+    ```sh
+    npm start
+    ```
+    The application will be available at `http://localhost:3000`.
